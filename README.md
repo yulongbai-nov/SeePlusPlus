@@ -50,6 +50,16 @@ See++ is a tool for visualizing and debugging C++ code aimed at helping students
 
 For troubleshooting on deployment, additional info can be found in the [docs](https://github.com/knazir/SeePlusPlus/tree/master/docs).
 
+## Documentation
+
+| Guide | Description |
+|-------|-------------|
+| [Architecture](./docs/architecture.md) | System design and component overview |
+| [Development](./docs/development.md) | Local development setup and workflow |
+| [Infrastructure](./docs/infrastructure.md) | AWS infrastructure details |
+| [Deployment](./docs/deployment.md) | AWS deployment procedures |
+| [Technical Deep Dive](./docs/technical-deep-dive.md) | **NEW**: Comprehensive technical analysis, data flow diagrams, tech stack gaps, and VS Code extension feasibility study |
+
 
 ## Project Goals
 |                        |                                                                                                           |
