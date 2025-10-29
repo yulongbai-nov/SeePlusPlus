@@ -53,7 +53,23 @@ See++ is a web-based tool that helps students, educators, and developers underst
 - Verification and testing procedures
 - Troubleshooting deployment issues
 
-## Quick Navigation
+---
+
+### [Technical Deep Dive](./technical-deep-dive.md)
+**Comprehensive technical analysis and VS Code extension feasibility**
+
+- Detailed source code structure and component breakdown
+- Data flow with mermaid diagrams
+- Technology stack analysis (current vs. modern)
+- Gap analysis between current and modern stack
+- VS Code extension feasibility study
+- Debug Adapter Protocol (DAP) integration guide
+- Debugger infrastructure deep dive (Valgrind vs. GDB)
+- Implementation roadmap for VS Code extension
+
+> 📄 **Quick Summary**: See [VS Code Extension Summary](./VSCODE_EXTENSION_SUMMARY.md) for a TL;DR version
+
+---
 
 ### For New Contributors
 1. Start with [Architecture Guide](./architecture.md) to understand the system
@@ -69,6 +85,7 @@ See++ is a web-based tool that helps students, educators, and developers underst
 1. [Architecture Guide](./architecture.md) - High-level system design
 2. [Infrastructure Guide](./infrastructure.md) - AWS infrastructure details
 3. [Development Guide](./development.md) - Code organization and patterns
+4. [Technical Deep Dive](./technical-deep-dive.md) - Detailed technical analysis and VS Code extension feasibility
 
 ## Project Structure
 
@@ -84,7 +101,9 @@ SeePlusPlus/
 │   ├── architecture.md      # System design overview
 │   ├── infrastructure.md    # AWS infrastructure guide
 │   ├── development.md       # Local development guide
-│   └── deployment.md        # AWS deployment guide
+│   ├── deployment.md        # AWS deployment guide
+│   ├── technical-deep-dive.md      # Technical analysis and VS Code extension study
+│   └── VSCODE_EXTENSION_SUMMARY.md # VS Code extension quick summary (TL;DR)
 └── localdev.sh              # Local development script
 ```
 
@@ -147,6 +166,9 @@ As See++ evolves, documentation will be added for:
 - **Multi-Region Deployment**: Advanced deployment strategies
 - **API Reference**: Complete backend API documentation
 - **Component Library**: Frontend component documentation
+- **VS Code Extension Guide**: Once implemented, full guide for the extension
+
+> **Note**: The [Technical Deep Dive](./technical-deep-dive.md) document provides a comprehensive feasibility study and implementation roadmap for creating a VS Code extension to extend the debugging visualization capabilities.
 
 ---
 
