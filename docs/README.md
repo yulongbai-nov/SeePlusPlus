@@ -67,7 +67,9 @@ See++ is a web-based tool that helps students, educators, and developers underst
 - Debugger infrastructure deep dive (Valgrind vs. GDB)
 - Implementation roadmap for VS Code extension
 
-## Quick Navigation
+> 📄 **Quick Summary**: See [VS Code Extension Summary](./VSCODE_EXTENSION_SUMMARY.md) for a TL;DR version
+
+---
 
 ### For New Contributors
 1. Start with [Architecture Guide](./architecture.md) to understand the system
@@ -100,7 +102,8 @@ SeePlusPlus/
 │   ├── infrastructure.md    # AWS infrastructure guide
 │   ├── development.md       # Local development guide
 │   ├── deployment.md        # AWS deployment guide
-│   └── technical-deep-dive.md  # Technical analysis and VS Code extension study
+│   ├── technical-deep-dive.md      # Technical analysis and VS Code extension study
+│   └── VSCODE_EXTENSION_SUMMARY.md # VS Code extension quick summary (TL;DR)
 └── localdev.sh              # Local development script
 ```
 

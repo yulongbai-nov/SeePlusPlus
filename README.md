@@ -59,6 +59,7 @@ For troubleshooting on deployment, additional info can be found in the [docs](ht
 | [Infrastructure](./docs/infrastructure.md) | AWS infrastructure details |
 | [Deployment](./docs/deployment.md) | AWS deployment procedures |
 | [Technical Deep Dive](./docs/technical-deep-dive.md) | **NEW**: Comprehensive technical analysis, data flow diagrams, tech stack gaps, and VS Code extension feasibility study |
+| [VS Code Extension Summary](./docs/VSCODE_EXTENSION_SUMMARY.md) | **TL;DR**: Quick summary of VS Code extension feasibility |
 
 
 ## Project Goals
